@@ -1,0 +1,80 @@
+body{
+  background-color: black;
+}
+
+#app{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 75px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.film{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  width: 700px;
+  height: 600px;
+  background-color: rgb(247, 247, 247);
+  padding-bottom: 25px;
+  border-radius: 10px;
+  border: 2px solid rgb(220, 220, 220);
+;}
+
+.film img {
+  width: 100%;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+.infos-container{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 0px 15px;
+}
+
+.infos-container h3{
+  font-size: 50px;
+  margin: 0;
+}
+
+.infos{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.infos h2{
+  margin: 0;
+  font-size: 40px;
+}
+
+.infos p{
+  margin: 0;
+  font-size: 16px;
+}
+
+.moreinfos{
+  display: flex;
+  gap: 25px;
+}
+
+.deleteCard{
+  position: absolute;
+  top: 2%;
+  left: 93%;
+  color: white;
+  font-size: 40px;
+  margin: 0;
+}
